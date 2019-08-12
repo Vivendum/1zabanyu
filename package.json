@@ -1,0 +1,26 @@
+{
+  "name": "1zabanyu",
+  "version": "1.0.0",
+  "description": "Information site about bathhouses",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1zabanyu/1zabanyu.git"
+  },
+  "author": {
+    "name": "1zabanyu",
+    "email": "1zabanyu@mail.ru",
+    "url": "http://1zabanyu.ru"
+  },
+  "contributors": [
+    {
+      "name": "Vivendum",
+      "email": "vivendum@mail.ru"
+    }
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/1zabanyu/1zabanyu#readme",
+  "bugs": {
+    "url": "https://github.com/1zabanyu/1zabanyu/issues"
+  }
+}
