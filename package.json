@@ -46,10 +46,11 @@
     "stylelint-config-htmlacademy": "0.1.x"
   },
   "scripts": {
-    "editorconfig": "editorconfig-cli",
-    "stylelint": "stylelint \"source/style/**/*.less\" --syntax less",
-    "build": "gulp start:build",
-    "fit": "gulp start:fit",
+    "editorconfig": "run editorconfig-cli",
+    "stylelint": "run stylelint \"source/style/**/*.less\" --syntax less",
+    "test": "run editorconfig && run stylelint",
+    "build": "run gulp start:build",
+    "fit": "run gulp start:fit",
     "start": "gulp start"
   },
   "browserslist": [
