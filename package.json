@@ -22,5 +22,33 @@
   "homepage": "https://github.com/1zabanyu/1zabanyu#readme",
   "bugs": {
     "url": "https://github.com/1zabanyu/1zabanyu/issues"
-  }
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "2.26.x",
+    "gulp": "4.0.x",
+    "gulp-changed": "4.0.x",
+    "gulp-csso": "3.0.x",
+    "gulp-ext-replace": "0.3.x",
+    "gulp-htmlmin": "5.0.x",
+    "gulp-less": "4.0.x",
+    "gulp-plumber": "1.2.x",
+    "gulp-postcss": "8.0.x",
+    "gulp-rename": "1.4.x",
+    "gulp-rigger": "0.5.x",
+    "gulp-sourcemaps": "2.6.x",
+    "gulp-uglify": "3.0.x"
+  },
+  "scripts": {
+    "build": "gulp start:build",
+    "fit": "gulp start:fit",
+    "start": "gulp start"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie 11"
+  ]
 }
