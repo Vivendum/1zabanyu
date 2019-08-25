@@ -41,6 +41,7 @@
     "gulp-rigger": "0.5.x",
     "gulp-sourcemaps": "2.6.x",
     "gulp-uglify": "3.0.x",
+    "normalize.less": "1.0.x",
     "@htmlacademy/editorconfig-cli": "1.x",
     "stylelint": "10.1.x",
     "stylelint-config-htmlacademy": "0.1.x"
