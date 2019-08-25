@@ -40,9 +40,11 @@
     "gulp-rename": "1.4.x",
     "gulp-rigger": "0.5.x",
     "gulp-sourcemaps": "2.6.x",
-    "gulp-uglify": "3.0.x"
+    "gulp-uglify": "3.0.x",
+    "@htmlacademy/editorconfig-cli": "1.x"
   },
   "scripts": {
+    "editorconfig": "editorconfig-cli",
     "build": "gulp start:build",
     "fit": "gulp start:fit",
     "start": "gulp start"
@@ -50,5 +52,14 @@
   "browserslist": [
     "last 2 versions",
     "ie 11"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "source/*.html",
+    "source/template/**/*.html",
+    "source/script/**/*.js",
+    "source/style/**/*.less",
+    "source/image/**/*.svg"
   ]
 }
